@@ -1,0 +1,21 @@
+* {
+  overflow-y: scroll !important;
+}
+
+* ::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.description {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.jumbotron {
+  background-color: aliceblue;
+}

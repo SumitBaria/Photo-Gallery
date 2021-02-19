@@ -1,0 +1,15 @@
+.home__component1 {
+  font-size: 35px !important;
+  text-transform: uppercase;
+}
+
+.home__image {
+  max-width: 250px;
+  max-height: auto;
+  object-fit: contain !important;
+}
+
+/* .home__uploadbtn {
+  display: flex;
+  justify-content: right;
+} */
