@@ -1,0 +1,101 @@
+.imageCardMain {
+  display: "flex";
+  flex-wrap: "wrap";
+  justify-content: "space-around";
+  overflow: "hidden";
+}
+
+.mainCardContainer {
+  transition: 0.5s ease-in-out;
+  max-height: auto;
+  object-fit: contain !important;
+  border: none;
+}
+
+.mainCardContainer:hover {
+  transform: translateY(10px);
+  transition: 0.5s all;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.mainCardMedia {
+  display: flex !important;
+  justify-content: center;
+}
+
+.cardGridImage {
+  max-width: 300px !important;
+  height: auto;
+  max-height: 200px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainBodyCardTitle {
+  text-transform: uppercase;
+  letter-spacing: 1px !important;
+  font-size: 15px !important;
+}
+
+.mainBodyCardTitle:hover {
+  font-weight: 500;
+}
+
+.iconBtn {
+  color: "white";
+}
+
+.imageModel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain !important;
+  padding: none !important;
+  margin: none;
+  border: none;
+}
+
+.cardModalImage {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  max-height: 700px;
+  object-fit: contain;
+}
+
+.cardModalOverlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.3) 70%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+}
+
+.paper {
+  object-fit: contain !important;
+  border: none;
+  background-color: aliceblue;
+}
+
+.MuiGridListTileBar-root {
+  display: inherit !important;
+}
+
+.cardModalOverlay {
+  height: 100px !important;
+}
+
+.MuiGridListTileBar-actionIcon {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.cardModalIcon > span {
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,52 @@
+.mainContainer {
+  background-color: rgba(240, 240, 240, 0.4);
+  height: 100vh;
+}
+
+.mainContainerTopPart {
+  padding-top: 40px;
+}
+
+.mainHeader,
+.mainHeaderBottom {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.mainGrid {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.mainParagraph {
+  margin-left: 45px;
+}
+
+.mainContainerBottomPart {
+  margin: 30px 0px;
+}
+
+.mainHeaderBottom {
+  display: flex;
+  justify-content: center;
+}
+
+.mainImage {
+  max-width: 250px;
+  max-height: auto;
+  object-fit: contain !important;
+}
+
+.mainContainerBottomPartButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainerBottomPartButtons > button {
+  width: 140px;
+  height: 40px;
+  margin: 5px;
+}

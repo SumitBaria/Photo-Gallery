@@ -1,0 +1,38 @@
+.signInModel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.modalHeader {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3f51b5;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.MuiFormControl-root {
+  margin-top: 10px !important;
+}
+
+.modalbtnmain {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-top: 10px !important;
+}
+
+.modaldivider {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3f51b5;
+}
+
+.modalGoogleBtnMain {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
