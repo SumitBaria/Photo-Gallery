@@ -36,3 +36,8 @@
   display: flex;
   justify-content: center;
 }
+
+.makeStyles-paper-2 {
+  object-fit: contain;
+  width: 300px !important;
+}

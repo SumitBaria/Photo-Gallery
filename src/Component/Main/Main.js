@@ -45,7 +45,7 @@ const Main = () => {
             <div className="mainContainerTopPart">
               <div className="mainHeader">What is this for?</div>
               <Grid container spacing={3} className="mainGrid">
-                <Grid item xs={8}>
+                <Grid item md={8}>
                   <p className="mainParagraph">
                     This application is to store the photos online. We can't
                     store our all photos on our hardisk, pen drive, laptop or
@@ -56,7 +56,7 @@ const Main = () => {
                     laptop or phone or computer and anywhere.
                   </p>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item md={4}>
                   <img
                     src="https://st.depositphotos.com/1005979/2522/i/950/depositphotos_25225541-stock-photo-what-word-question-mark-3d.jpg"
                     className="mainImage"

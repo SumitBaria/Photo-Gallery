@@ -36,7 +36,7 @@
 
 .mainImage {
   max-width: 250px;
-  max-height: auto;
+  height: auto;
   object-fit: contain !important;
 }
 

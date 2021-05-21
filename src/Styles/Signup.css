@@ -4,3 +4,8 @@
   align-items: center;
   border: none;
 }
+
+.makeStyles-paper-1 {
+  object-fit: contain;
+  width: 300px !important;
+}

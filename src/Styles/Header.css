@@ -21,4 +21,5 @@
 
 .headerButtons > button {
   font-size: 17px;
+  object-fit: contain;
 }
